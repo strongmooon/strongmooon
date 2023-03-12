@@ -165,7 +165,7 @@ body {
   align-items: center;
 }
 .cards {
-  margin-left: 2.5%;
+  margin: 0 120px;
   margin-top: 5%;
   height: auto;
   font-family: "Open Sans";
@@ -425,14 +425,56 @@ body {
   .icon-nav {
     display: none;
   }
+  .header{
+    margin: 0 70px;
+  }
   .menu-burger {
-    margin-left: 45%;
+    margin-left: 25%;
     display: flex;
     margin-right: 1%;
+  }
+  .under-header{
+    margin: 0 70px;
   }
   .nav-under-header {
     margin-left: 5px;
   }
+  .cards{
+    margin: 0 70px;
+    margin-top:10%;
+    margin-bottom: 10%;
+  }
+  .container{
+    margin: 0 70px;
+  }
+  .slider-text {
+    font-size: 15px;
+
+}
+.price {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.slider-desc {
+  font-size: 8px;
+  margin-bottom: 20px;
+}
+.button {
+  font-size: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.concept{
+  width: 95%;
+}
+.concept-title{
+  font-size: 35px;
+}
+.concept-subtitle{
+  font-size: 12px;
+}
 }
 @media screen and (max-width: 1123px) {
   .nav-under-header {
