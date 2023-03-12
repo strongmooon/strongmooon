@@ -1,0 +1,450 @@
+body {
+  margin: 0;
+  pading: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* under-header
+================================== */
+
+.back-ground-under {
+  background-color: black;
+  opacity: 88%;
+}
+.under-header {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 120px;
+}
+.nav-under-header {
+  margin-left: 42%;
+  filter: invert(99%) sepia(7%) saturate(4%) hue-rotate(90deg) brightness(107%)
+    contrast(100%);
+}
+.text-under {
+  font-size: 12px;
+  color: white;
+}
+
+.nav-under-item {
+  max-width: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* header 
+================================*/
+
+.header {
+  margin: 0 120px;
+  display: flex;
+  align-items: center;
+  margin-top: 1%;
+}
+.header-logo {
+  filter: invert(70%) sepia(51%) saturate(2808%) hue-rotate(358deg)
+    brightness(99%) contrast(107%);
+
+  max-width: 50px;
+}
+
+.header-logo-text {
+  margin-left: 1%;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* navigation
+=============================== */
+
+.nav {
+  display: flex;
+  list-style: none;
+  padding-left: 25%;
+}
+.nav-item a {
+  text-decoration: none;
+  margin-left: 25px;
+  color: black;
+}
+.icon-nav {
+  margin-left: 5%;
+}
+.nav-icon {
+  align-items: center;
+  background-color: #d2b5a6;
+  padding: 2% 2%;
+  color: #d2b5a6;
+  border: 1px solid #d2b5a6;
+  border-radius: 50%;
+  transition: 0.5s;
+  max-width: 5%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.menu-burger {
+  display: none;
+  padding-left: 25px;
+  width: 35px;
+}
+
+/* slider */
+.container {
+  margin-top: 10px;
+  margin: 0 120px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+}
+
+/* Slider
+================================ */
+
+.slider {
+  margin-top: 1%;
+  background-size: 100% 170%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/monaco-1.jpg");
+}
+
+.price {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.slider-under-text {
+  font-size: 14px;
+}
+.slider-text {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.slider-desc {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 25px;
+  transition: 0.3s all linear;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.navbuttons {
+  display: flex;
+  align-items: center;
+}
+.navbutton {
+  padding: 2% 2%;
+  background-color: black;
+}
+
+/* CARDS 1
+=====================================*/
+
+.container-card {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cards {
+  margin-left: 2.5%;
+  margin-top: 5%;
+  height: auto;
+  font-family: "Open Sans";
+  margin-bottom: 5%;
+}
+
+.title-info {
+  display: flex;
+  align-items: center;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 30%;
+}
+.card-number {
+  font-size: 30px;
+  opacity: 50%;
+  margin-left: 35%;
+}
+
+.card-desc {
+  max-width: 75%;
+  margin-top: 5%;
+  display: flex;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+.click-me {
+  padding-top: 10%;
+}
+.click {
+  text-decoration: none;
+  color: #d2b5a6;
+  opacity: 75%;
+}
+
+/* Concept
+===================================== */
+
+.concept {
+  justify-content: center;
+  margin-top: 1%;
+  background-size: 120% 150%;
+  width: 100%;
+  height: 90%;
+  margin-bottom: 5%;
+  background-repeat: no-repeat;
+  background-image: url("../img/designinterior.jpg");
+  text-align: center;
+  align-items: center;
+}
+
+.concept-cont {
+  padding-top: 15%;
+}
+.concept-title {
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+.concept-subtitle {
+  color: white;
+  font-size: 16px;
+}
+
+/* Our project */
+
+.containerrr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.block {
+  width: 240px;
+  margin: 0;
+  margin-bottom: 3%;
+}
+
+.img-top {
+  width: 100%;
+  height: auto;
+  margin-bottom: -40px;
+}
+
+.img-circle-wrapper {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.img-circle {
+  overflow: hidden;
+}
+
+.img-circle img {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-wrapper {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.text-wrapper h3 {
+  margin: 0;
+}
+
+.text-wrapper p {
+  margin: 0;
+}
+
+/* Cards 2 
+
+
+======================= */
+
+.container-card2 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  background-size: 120% 150%;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/images.jpg");
+  background-repeat: no-repeat;
+}
+.carsd2 {
+  padding-left: 35%;
+}
+
+.icon {
+  width: 50px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(277deg)
+    brightness(102%) contrast(103%);
+}
+
+.title-info {
+  display: flex;
+  align-items: center;
+}
+.card-desc2 {
+  width: 35%;
+  margin-left: 75px;
+  font-size: 15px;
+}
+.card-title2 {
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 25px;
+}
+
+.pointer {
+  padding-top: 5px;
+  font-size: 30px;
+  padding-left: 75px;
+}
+
+/* Cards 3
+========================= */
+
+.container-card3 {
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ceva {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card3 {
+  width: 25%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 15px;
+}
+
+.title-info-no-card {
+  display: flex;
+}
+
+.title-no-card {
+  text-transform: uppercase;
+  margin-left: 12%;
+}
+
+.button-no-card {
+  text-decoration: none;
+  color: #d2b5a6;
+  margin-left: 55%;
+}
+
+.under-title-card3 {
+  font-size: 14px;
+  margin-bottom: 2%;
+  color: #d2b5a6;
+}
+.hr-card3 {
+  width: 25px;
+  margin-right: 100%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+
+  border: 1px solid #d2b5a6;
+}
+
+.title-card3 {
+  font-weight: 700;
+  font-size: 23px;
+  padding-top: 3%;
+}
+
+.card-desc3 {
+  padding-top: 3%;
+}
+
+.button-card3 {
+  color: white;
+  background-color: #d2b5a6;
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 7%;
+  border-radius: 15px;
+}
+
+/* Footer
+============= */
+
+/* Media
+===================== */
+
+@media screen and (max-width: 850px) {
+  .text-under {
+    font-size: 12px;
+  }
+  .nav-item {
+    display: none;
+  }
+  .icon-nav {
+    display: none;
+  }
+  .menu-burger {
+    margin-left: 45%;
+    display: flex;
+    margin-right: 1%;
+  }
+  .nav-under-header {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 1123px) {
+  .nav-under-header {
+    margin-left: 38%;
+  }
+  .concept {
+    height: 40%;
+  }
+  @media (max-width: 768px) {
+    .block {
+      width: 80%;
+      max-width: 400px;
+    }
+  }
+}
