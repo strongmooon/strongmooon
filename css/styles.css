@@ -465,7 +465,6 @@ body {
   }
 .checkbtn{
     text-align: right;
-    margin-left: 25%;
     display: flex;
     margin-right: 1%;
   }
@@ -503,7 +502,7 @@ body {
   padding-right: 25px;
 }
 .concept{
-  width: 95%;
+  width: 100%;
 }
 .concept-title{
   font-size: 35px;
