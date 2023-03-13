@@ -20,7 +20,8 @@ body {
   margin: 0 120px;
 }
 .nav-under-header {
-  margin-left: 42%;
+
+  text-align: right;
   filter: invert(99%) sepia(7%) saturate(4%) hue-rotate(90deg) brightness(107%)
     contrast(100%);
 }
@@ -30,6 +31,7 @@ body {
 }
 
 .nav-under-item {
+  text-align: right;
   max-width: 20px;
   cursor: pointer;
   margin-left: 10px;
@@ -71,7 +73,7 @@ body {
   color: black;
 }
 .icon-nav {
-  margin-left: 5%;
+  text-align: right;
 }
 .nav-icon {
   align-items: center;
@@ -85,7 +87,7 @@ body {
   margin-left: 5%;
   cursor: pointer;
 }
-.menu-burger {
+.checkbtn {
   display: none;
   padding-left: 25px;
   width: 35px;
@@ -159,18 +161,20 @@ body {
 =====================================*/
 
 .container-card {
+  margin-left: 120px;
+  margin-right: 120px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 .cards {
-  /* width: 240px; */
-  margin: 0 120px;
+  margin-left: 25px;
+  width:25%;
   height: auto;
   margin-top: 3%;
   font-family: "Open Sans";
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .title-info {
@@ -295,17 +299,30 @@ body {
 
 .container-card2 {
   justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   color: white;
   background-size: 120% 150%;
   background-image: url("../img/images.jpg");
   background-repeat: no-repeat;
   margin-top: 3%;
 }
-.carsd2 {
-  padding-left: 35%;
+.cards2-2{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin-right: 120px;
+
+}
+.cards2 {
+  
+    margin-left: 25px;
+    width:31.33333%;
+    height: auto;
+    margin-top: 3%;
+    font-family: "Open Sans";
+    margin-bottom: 3%;
+
+  
 }
 
 .icon {
@@ -430,6 +447,9 @@ body {
 ===================== */
 
 @media screen and (max-width: 850px) {
+  .cards2{
+    width: 100%;
+  }
   .text-under {
     font-size: 12px;
   }
@@ -440,9 +460,11 @@ body {
     display: none;
   }
   .header{
-    margin: 0 70px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
-  .menu-burger {
+.checkbtn{
+    text-align: right;
     margin-left: 25%;
     display: flex;
     margin-right: 1%;
@@ -491,8 +513,9 @@ body {
 }
 }
 @media screen and (max-width: 1123px) {
-  .nav-under-header {
-    margin-left: 38%;
+
+  .cards2{
+    width: 45%;
   }
   .concept {
     height: 40%;
