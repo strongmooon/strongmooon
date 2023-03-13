@@ -475,6 +475,13 @@ body {
 .concept-subtitle{
   font-size: 12px;
 }
+.nav-under-header{
+  display: flex;
+}
+
+
+
+
 }
 @media screen and (max-width: 1123px) {
   .nav-under-header {
