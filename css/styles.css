@@ -165,9 +165,10 @@ body {
   align-items: center;
 }
 .cards {
+  /* width: 240px; */
   margin: 0 120px;
-  margin-top: 5%;
   height: auto;
+  margin-top: 3%;
   font-family: "Open Sans";
   margin-bottom: 5%;
 }
@@ -299,10 +300,9 @@ body {
   align-items: center;
   color: white;
   background-size: 120% 150%;
-  width: 100%;
-  height: 100%;
   background-image: url("../img/images.jpg");
   background-repeat: no-repeat;
+  margin-top: 3%;
 }
 .carsd2 {
   padding-left: 35%;
@@ -338,24 +338,36 @@ body {
 /* Cards 3
 ========================= */
 
+.containerrr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.block {
+  width: 240px;
+  margin: 0;
+  margin-bottom: 3%;
+}
 .container-card3 {
   justify-content: center;
-
   align-items: center;
   margin-top: 8%;
   margin-left: 10%;
   margin-right: 10%;
 }
-.ceva {
+.cards3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .card3 {
-  width: 25%;
+  width: 295px;
   margin-top: 10%;
   margin-bottom: 5%;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .title-info-no-card {
@@ -407,7 +419,9 @@ body {
   padding-bottom: 10px;
   margin-top: 7%;
   border-radius: 15px;
+  font-size: 16px;
 }
+
 
 /* Footer
 ============= */
@@ -475,13 +489,6 @@ body {
 .concept-subtitle{
   font-size: 12px;
 }
-.nav-under-header{
-  display: flex;
-}
-
-
-
-
 }
 @media screen and (max-width: 1123px) {
   .nav-under-header {
