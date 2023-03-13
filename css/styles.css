@@ -20,7 +20,8 @@ body {
   margin: 0 120px;
 }
 .nav-under-header {
-  margin-left: 42%;
+
+  text-align: right;
   filter: invert(99%) sepia(7%) saturate(4%) hue-rotate(90deg) brightness(107%)
     contrast(100%);
 }
@@ -30,6 +31,7 @@ body {
 }
 
 .nav-under-item {
+  text-align: right;
   max-width: 20px;
   cursor: pointer;
   margin-left: 10px;
@@ -71,7 +73,7 @@ body {
   color: black;
 }
 .icon-nav {
-  margin-left: 5%;
+  text-align: right;
 }
 .nav-icon {
   align-items: center;
@@ -85,7 +87,7 @@ body {
   margin-left: 5%;
   cursor: pointer;
 }
-.menu-burger {
+.checkbtn {
   display: none;
   padding-left: 25px;
   width: 35px;
@@ -108,7 +110,7 @@ body {
   background-size: 100% 170%;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url("/img/monaco-1.jpg");
+  background-image: url("../img/monaco-1.jpg");
 }
 
 .price {
@@ -159,17 +161,20 @@ body {
 =====================================*/
 
 .container-card {
+  margin-left: 120px;
+  margin-right: 120px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 .cards {
-  margin-left: 2.5%;
-  margin-top: 5%;
+  margin-left: 25px;
+  width:25%;
   height: auto;
+  margin-top: 3%;
   font-family: "Open Sans";
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .title-info {
@@ -210,11 +215,11 @@ body {
   justify-content: center;
   margin-top: 1%;
   background-size: 120% 150%;
-  width:100%;
+  width: 100%;
   height: 90%;
   margin-bottom: 5%;
   background-repeat: no-repeat;
-  background-image: url("/img/designinterior.jpg");
+  background-image: url("../img/designinterior.jpg");
   text-align: center;
   align-items: center;
 }
@@ -247,7 +252,6 @@ body {
   width: 240px;
   margin: 0;
   margin-bottom: 3%;
-
 }
 
 .img-top {
@@ -288,8 +292,6 @@ body {
   margin: 0;
 }
 
-
-
 /* Cards 2 
 
 
@@ -297,18 +299,30 @@ body {
 
 .container-card2 {
   justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   color: white;
   background-size: 120% 150%;
-  width: 100%;
-  height: 100%;
-  background-image: url("/img/images.jpg");
+  background-image: url("../img/images.jpg");
   background-repeat: no-repeat;
+  margin-top: 3%;
 }
-.carsd2 {
-  padding-left: 35%;
+.cards2-2{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin-right: 120px;
+
+}
+.cards2 {
+  
+    margin-left: 25px;
+    width:31.33333%;
+    height: auto;
+    margin-top: 3%;
+    font-family: "Open Sans";
+    margin-bottom: 3%;
+
+  
 }
 
 .icon {
@@ -341,34 +355,45 @@ body {
 /* Cards 3
 ========================= */
 
+.containerrr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.block {
+  width: 240px;
+  margin: 0;
+  margin-bottom: 3%;
+}
 .container-card3 {
   justify-content: center;
-
   align-items: center;
   margin-top: 8%;
   margin-left: 10%;
   margin-right: 10%;
 }
-.ceva {
+.cards3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .card3 {
-  width: 25%;
+  width: 295px;
   margin-top: 10%;
   margin-bottom: 5%;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .title-info-no-card {
   display: flex;
-
 }
 
 .title-no-card {
   text-transform: uppercase;
-  margin-left:12%;
+  margin-left: 12%;
 }
 
 .button-no-card {
@@ -398,7 +423,7 @@ body {
 }
 
 .card-desc3 {
-    padding-top: 3%;
+  padding-top: 3%;
 }
 
 .button-card3 {
@@ -411,16 +436,20 @@ body {
   padding-bottom: 10px;
   margin-top: 7%;
   border-radius: 15px;
+  font-size: 16px;
 }
+
 
 /* Footer
 ============= */
-
 
 /* Media
 ===================== */
 
 @media screen and (max-width: 850px) {
+  .cards2{
+    width: 100%;
+  }
   .text-under {
     font-size: 12px;
   }
@@ -430,18 +459,63 @@ body {
   .icon-nav {
     display: none;
   }
-  .menu-burger {
-    margin-left: 45%;
-    display: flex;
-    margin-right: 1%;
+  .header{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+.checkbtn{
+    display: block;
+  }
+ul{
+  position: fixed;
+}
+  .under-header{
+    margin: 0 70px;
   }
   .nav-under-header {
     margin-left: 5px;
   }
+  .cards{
+    margin: 0 70px;
+    margin-top:10%;
+    margin-bottom: 10%;
+  }
+  .container{
+    margin: 0 70px;
+  }
+  .slider-text {
+    font-size: 15px;
+
+}
+.price {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.slider-desc {
+  font-size: 8px;
+  margin-bottom: 20px;
+}
+.button {
+  font-size: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.concept{
+  width: 100%;
+}
+.concept-title{
+  font-size: 35px;
+}
+.concept-subtitle{
+  font-size: 12px;
+}
 }
 @media screen and (max-width: 1123px) {
-  .nav-under-header {
-    margin-left: 38%;
+
+  .cards2{
+    width: 45%;
   }
   .concept {
     height: 40%;
