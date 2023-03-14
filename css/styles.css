@@ -172,11 +172,11 @@ li {
   align-items: center;
 }
 .cards {
-  margin-left: 25px;
+  margin-left: 15px;
   width:25%;
   height: auto;
   margin-top: 3%;
-  font-family: "Open Sans";
+
   margin-bottom: 3%;
 }
 
@@ -192,7 +192,8 @@ li {
 .card-number {
   font-size: 30px;
   opacity: 50%;
-  margin-left: 135px;
+  margin-left: 89px;
+  
 }
 
 .card-desc {
